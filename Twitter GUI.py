@@ -139,7 +139,7 @@ def click():
         
         msgs = []
         msg =[]
-        for tweet in tweepy.Cursor(api.search, q='#carryminati').items(500):
+        for tweet in tweepy.Cursor(api.search, q=hash_name).items(500):
             msg = [tweet.text] 
             msg = tuple(msg)                    
             msgs.append(msg)
