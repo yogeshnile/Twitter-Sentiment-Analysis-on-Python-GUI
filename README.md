@@ -1,5 +1,5 @@
 # Twitter-Sentiment-Analysis-on-Python-GUI
-On this Repo created a Twitter Sentiment Analysis on python GUI (Tkinter).
+On this Repo created a Twitter Sentiment Analysis on python GUI (Tkinter) library.
 
 ## Dependentias
 ```python
