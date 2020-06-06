@@ -5,8 +5,6 @@ import pandas as pd
 from textblob import TextBlob
 from wordcloud import WordCloud
 import re 
-import matplotlib.pyplot as plt
-plt.style.use('fivethirtyeight')
 
 root = Tk()
 root.title('Twitter Sentiment Analysis by Yogesh Nile') #Title
