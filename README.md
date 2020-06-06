@@ -9,8 +9,7 @@ import tweepy
 import pandas as pd
 from textblob import TextBlob
 from wordcloud import WordCloud
-import re 
-import matplotlib.pyplot as plt
+import re
 
 ```
 
@@ -24,6 +23,7 @@ def click():
     user_name = user_value.get()
     hash_name = hash_value.get()
     
+    #insert here twitter API keys
     consumerKey = ""
     consumerSecret = ""
     accessToken = ""
