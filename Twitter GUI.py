@@ -77,6 +77,7 @@ def click():
     consumerSecret = ""
     accessToken = ""
     accessTokenSecret = ""
+    #============================End twitter API keys section===========================
     
     authenticate = tweepy.OAuthHandler(consumerKey, consumerSecret)
     authenticate.set_access_token(accessToken, accessTokenSecret)
