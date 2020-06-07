@@ -72,6 +72,7 @@ def click():
     user_name = user_value.get()
     hash_name = hash_value.get()
     
+    #============================Insert here twitter API keys===========================
     consumerKey = ""
     consumerSecret = ""
     accessToken = ""
