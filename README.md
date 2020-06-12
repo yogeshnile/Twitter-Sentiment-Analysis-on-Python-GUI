@@ -33,7 +33,10 @@ def click():
     authenticate.set_access_token(accessToken, accessTokenSecret)
     api = tweepy.API(authenticate, wait_on_rate_limit = True) # api object
 ```
-    
+# Application
+Ckeck out Twitter Sentiment Analysis on python **Flask** App :point_right: [click here](https://github.com/yogeshnile/Twitter-Sentiment-Analysis-on-Flask-App)
+
+Ckeck out Twitter Sentiment Analysis on python **Jupyter Notebook** :point_right: [click here](https://github.com/yogeshnile/Sentiment-Analysis-of-Twitter-Account)
     
 
 ## ScreenShot:-
